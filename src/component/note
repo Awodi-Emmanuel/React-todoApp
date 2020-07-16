@@ -1,0 +1,22 @@
+{/*const stlyColor = {
+    backgroundColor: '#f4f4f4'
+
+
+}
+
+*/}
+<Link style={linkStyle} to="/">Home</Link> |
+            <Link style={linkStyle}  to="/about">const linkStyle = {
+
+    color: '#ffffff', 
+    textDecoration: 'none'
+}
+
+    <Route exact path="/" render={props => (
+          <React.Fragment>
+       
+          </React.Fragment>
+
+        )} />
+       
+      <Route path="/about" component={About} />
